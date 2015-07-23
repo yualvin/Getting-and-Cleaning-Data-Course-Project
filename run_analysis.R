@@ -83,12 +83,8 @@ all_meanstd <- merge(activity_labels,all_meanstd,by.x="activity",by.y="activity"
 ##find and replace the names to be renamed
 names(all_meanstd) <- str_replace_all(names(all_meanstd), "[.][.]", "")
 names(all_meanstd) <- str_replace_all(names(all_meanstd), "BodyBody", "Body")
-names(all_meanstd) <- str_replace_all(names(all_meanstd), "tBody", "Body")
-names(all_meanstd) <- str_replace_all(names(all_meanstd), "fBody", "FFTBody")
-names(all_meanstd) <- str_replace_all(names(all_meanstd), "tGravity", "Gravity")
-names(all_meanstd) <- str_replace_all(names(all_meanstd), "fGravity", "FFTGravity")
 names(all_meanstd) <- str_replace_all(names(all_meanstd), "Acc", "Acceleration")
-names(all_meanstd) <- str_replace_all(names(all_meanstd), "Gyro", "AngularVelocity")
+names(all_meanstd) <- str_replace_all(names(all_meanstd), "Gyro", "Angle")
 names(all_meanstd) <- str_replace_all(names(all_meanstd), "Mag", "Magnitude") 
 
 ## Step 4 Completed
