@@ -1,6 +1,6 @@
 # Readme.md
 
-##Contents
+##Contents of this Repo
 This repo contains the following documents in relation to the course project for Module 3 - Getting and Cleaning Data of the Data Scientist Signature Track on Coursera run by the John Hopkins Bloomberg School of Public Health:
 
 1. Readme.md (this document)
